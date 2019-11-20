@@ -11,7 +11,7 @@ function getAllStations() {
 }
 
 /* CREATE STATION*/
-function createNewStation(data){
-  return new Station({...data}).save()
+function createNewStation(data) {
+  return new Station({ ...data }).save();
 }
-module.exports = { getStationById, getAllStations };
+module.exports = { getStationById, getAllStations, createNewStation };
