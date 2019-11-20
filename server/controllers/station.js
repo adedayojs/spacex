@@ -10,4 +10,8 @@ function getAllStations() {
   return Station.find({});
 }
 
+/* CREATE STATION*/
+function createNewStation(data){
+  return new Station({...data}).save()
+}
 module.exports = { getStationById, getAllStations };
