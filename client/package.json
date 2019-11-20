@@ -42,5 +42,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
-}
+  ],
+  "proxy": {
+    "/api": "http://localhost:3000/api/v1/station"
+  }}
